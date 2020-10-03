@@ -1,0 +1,26 @@
+.color-box {
+  $box-size: 150px;
+  width: $box-size;
+  height: $box-size;
+
+  margin: 20px 20px;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: all 0.35s ease 0.1s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-box p {
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.color-box:hover {
+  transform: rotate(180deg);
+}

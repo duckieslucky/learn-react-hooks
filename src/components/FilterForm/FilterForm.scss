@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+label {
+  padding: 4px;
+  border: thin solid black;
+  border-radius: 4px;
+}
+input {
+  line-height: 30px;
+  width: 30%;
+  margin: 10px 0px;
+  padding: 0 5px;
+  font-size: 1em;
+  border: thin solid black;
+}
