@@ -1,0 +1,5 @@
+Bản chất cả 2 hook này đều dựa trên kỹ thuật Memoization
+    - useCallBack sẽ giữu lại vùng nhớ của callback/ hàm 
+    - useMeno sẽ giữ lại vùng nhớ của dữ liệu (values) 
+    -> không làm thay đổi dependencies, không load lại các component ảnh hưởng.
+    -> chỉ dùng khi tiêu tốn tài nguyên, tránh load nhiều. * không lạm dụng.
